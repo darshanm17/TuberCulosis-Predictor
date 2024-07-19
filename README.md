@@ -79,7 +79,9 @@ You can try a live demo of the application [here](#).
 This project uses the Kaggle Chest X-ray Tuberculosis dataset, organized into three folders: train, test, and val.
 
 Train: Contains the training data used to train the CNN model.
+
 Test: Contains the test data used to evaluate the model's performance.
+
 Val: Contains the validation data used to tune the model's hyperparameters.
 You can download the dataset from [here](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset).
 
@@ -87,4 +89,5 @@ You can download the dataset from [here](https://www.kaggle.com/datasets/tawsifu
 For any inquiries, please contact:
 
 Email: darshanmrd17@gmail.com
+
 Feel free to contribute to this project by submitting issues or pull requests
