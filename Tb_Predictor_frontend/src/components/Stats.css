@@ -1,0 +1,60 @@
+/* Stats.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  
+  min-height: 50vh;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Move section down initially */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.stats.animate {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Move section up to its final position */
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  margin: 0;
+  color: #333;
+}
+
+.stat-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .stat-number {
+    font-size: 2.5em;
+  }
+
+  .stat-label {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-number {
+    font-size: 2em;
+  }
+
+  .stat-label {
+    font-size: 0.9em;
+  }
+}

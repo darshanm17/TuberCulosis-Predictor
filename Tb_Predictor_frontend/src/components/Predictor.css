@@ -1,0 +1,82 @@
+/* Predictor.css */
+body { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.predict {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  min-height: 100vh;
+ background-image: linear-gradient(to bottom, #020e1f, #010c21, #010a22, #020724, #040425);
+}
+
+.predict .App {
+  background: rgb(11, 4, 4);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.predict h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.predict form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.predict input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.predict button {
+  background-color: #0073e6;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict button:hover {
+  background-color: #005bb5;
+}
+
+.predict img {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  box-shadow: #333 2px 2px 5px;
+  border-radius: 10px;
+}
+
+.predict h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .predict h1 {
+    font-size: 1.5em;
+  }
+
+  .predict button {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+}

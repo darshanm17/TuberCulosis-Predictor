@@ -1,0 +1,82 @@
+/* About.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.scrolling-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/batmanred.png');
+  background-size: cover;
+  background-repeat: repeat-y;
+  animation: scroll 10s linear infinite;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.about p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+@keyframes scroll {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 2em;
+  }
+
+  .about p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h2 {
+    font-size: 1.5em;
+  }
+
+  .about p {
+    font-size: 0.9em;
+  }
+}

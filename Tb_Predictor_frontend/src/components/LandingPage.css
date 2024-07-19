@@ -1,0 +1,67 @@
+.landing-page {
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+  color: #ebd4d4;
+}
+
+.header {
+  background-color: #000000;
+  padding: 20px;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.hero {
+  padding: 50px 20px;
+  background-color: #f0f8ff;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin: 0 0 20px;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 0 0 30px;
+}
+
+.cta-button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.about, .predict, .contact {
+  padding: 50px 20px;
+}
+
+.footer {
+  background-color: #0073e6;
+  color: white;
+  padding: 20px;
+}
