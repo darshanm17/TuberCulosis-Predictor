@@ -5,7 +5,6 @@ Tuberculosis Predictor is a web application that allows users to upload X-ray im
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -20,9 +19,7 @@ Tuberculosis Predictor is a web application that allows users to upload X-ray im
 - Animated statistics display.
 - Information about tuberculosis and its symptoms.
 
-## Demo
 
-You can try a live demo of the application [here](#).
 
 ## Installation
 
